@@ -13,14 +13,7 @@ html, body {
   outline: 0;
   padding: 0;
   // vertical-align: baseline;
-  background-color: rgba(249, 232, 50, 0.975);
-}
-
-a, p, li {
-  text-decoration: none;
-  list-style: none;
-  color: $black;
-  font-weight: 400;
+  background-color: #A1CFD6;
 }
 
 header {
@@ -34,9 +27,12 @@ header {
   display: inline-block;
   padding: 0px 20px;
   cursor: pointer;
-  transition: all 0.3s ease 0s;
+  // transition: all 0.3s ease 0s;
 }
 
-.nav-links li:hover {
-  color: white;
-}
+// .nav-links li:hover {
+//   color: white;
+// }
+
+// #A1CFD6
+// rgba(249, 232, 50, 0.975)

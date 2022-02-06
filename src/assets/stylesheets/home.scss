@@ -1,0 +1,55 @@
+.greeting h1 {
+  border-right: .15em solid $underline;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.greeting h1:nth-child(1) {
+  width: 7.3em;
+  animation: type 2s steps(40, end);
+  animation-fill-mode: forwards;
+}
+
+.greeting h1:nth-child(2) {
+  width: 11.5em;
+  opacity: 0;
+  animation: type2 2s steps(40, end), blink .5s step-end infinite alternate;;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid $underline;
+  }
+  100% {
+    border: none;
+  }
+}
+
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid $underline;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+// @keyframes blink {
+//   50% {
+//     border-color: $underline;
+//   }
+// }
