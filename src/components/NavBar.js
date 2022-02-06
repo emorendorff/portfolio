@@ -7,6 +7,7 @@ export const NavBar = () => {
 
     return (
         <header>
+          <h1 className='title'>Em Orendorff</h1>
           <nav className='nav'>
               <ul className='nav-links'>
                 <li>
@@ -17,7 +18,7 @@ export const NavBar = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to='/projects' className={`${location === '/work'} && 'active'`}>
+                  <NavLink to='/work' className={`${location === '/work'} && 'active'`}>
                       <p className='navbtn'>Work</p>
                   </NavLink>
                 </li>
