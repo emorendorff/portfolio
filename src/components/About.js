@@ -27,7 +27,7 @@ export const About = () => {
                     <div className='em-pic'>
                         <img className='em-pic' alt='em with a rose bush' src={biopic}/>
                         <div className='bio-btns'>
-                            <a
+                            {/* <a
                             target='_blank'
                             rel='noreferrer'
                             href='https://drive.google.com/file/d/1fW1NMSusC3WvCyY038RSL1jDOEoPzjfY/view?usp=sharing'
@@ -35,12 +35,12 @@ export const About = () => {
                                 <button className='bio-btn'>
                                     resume
                                 </button>
-                            </a>
+                            </a> */}
                             <Link to='/contact'>
-                             <button
+                             {/* <button
                              className='bio-btn'>
                                  contact me
-                             </button>
+                             </button> */}
                             </Link>
                         </div>
                     </div>
