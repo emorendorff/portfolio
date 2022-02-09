@@ -1,0 +1,21 @@
+//----- Baseline stylings for project ---- //
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;400;700&display=swap');
+@import './fonts.scss';
+
+html, body {
+  border: 0;
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  min-height: 100vh;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  background-color: $background;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+}

@@ -1,0 +1,17 @@
+@mixin scaled-pics {
+  // box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  height: auto; 
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+@mixin sideby {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+@mixin top-bottom-shadow {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+}
